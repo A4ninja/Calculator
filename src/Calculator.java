@@ -12,7 +12,7 @@ public class Calculator {
         expression = replaceRomanToArabic(expression,data);
         data = getSign(expression);
         int result = endResult(expression,data);
-        System.out.println(result);
+        System.out.println("Answer: "  + result);
         in.close();
     }
 
