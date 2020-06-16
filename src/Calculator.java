@@ -182,6 +182,9 @@ public class Calculator {
             result = result + "I";
             intExpr = intExpr - 1;
         }
+        if (intExpr == 0){
+            result = "none";
+        }
         return result;
     }
 }
